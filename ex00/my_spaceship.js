@@ -1,8 +1,9 @@
 function my_spaceship(string){
     let x = 0;
     let y = 0;
-    let direction = 'up';
+    let direction = "up";
     let i = 0;
+    let final;
 
     while(i < string.length){
         if(string[i] == "R"){
@@ -34,9 +35,25 @@ function my_spaceship(string){
             direction = "up";
         }
     }
+    if(string[i] == "A"){
+        if(direction == "up"){
+            y = y - 1;
+        }
+        if (direction == "down"){
+            y = y + 1;
+        }
+        if(direction == "right"){
+            x = x + 1;
+        }
+        if(direction == "left"){
+            x = x - 1;
+        } 
+
+    }
         i++;
-    }return direction;
+    }//return direction;
     //console.log(string);
-    //"{x: X, y: Y, direction: 'DIRECTION'}"
+    final = "{x: " + x +" y: " + y +", direction: '"+ direction +"'}";
+
 }   
  //my_spaceship('RAALALL');
