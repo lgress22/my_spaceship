@@ -53,7 +53,7 @@ function my_spaceship(string){
         i++;
     }//return direction;
     //console.log(string);
-    final = "{x: " + x +" y: " + y +", direction: '"+ direction +"'}";
-
+    final = "{x: " + x +", y: " + y +", direction: '"+ direction +"'}";
+    return final   
 }   
  //my_spaceship('RAALALL');
