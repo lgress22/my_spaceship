@@ -2,16 +2,16 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+The problem is understanding the problem, and doing the code to make it work.
 
 ## Description
-TODO - How have you solved the problem?
+Solving the problem was using several if statements and else if statments to change directions and casue advancements depeding on the direction.
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+This was for training purposes.
 
 ## Usage
-TODO - How does it work?
+This was for traingin purposes.
 ```
 ./my_project argument1 argument2
 ```
